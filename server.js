@@ -13,8 +13,8 @@ app.use('/api/user', routerUser);
 app.use('/api/order', routerOrder);
 app.use('/api/product', routerProduct);
 
-let port =process.env.PORT;
-app.listen(port, "localhost", () => {
+let port =process.env.PORT ;
+app.listen(port, () => {
     console.log("app is listening on port " + port);
 })
 
